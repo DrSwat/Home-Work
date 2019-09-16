@@ -11,7 +11,6 @@ public abstract class WorkersOfUniversity {
 	private int age;
 	private int weight;
 	public boolean higherEducation;
-	
 	public Sex sex;
 
 	public Sex getSex() {
@@ -64,16 +63,7 @@ public abstract class WorkersOfUniversity {
 
 	
 
-	public WorkersOfUniversity(String firstName, String lastName, int age, int weight, boolean higherEducation,
-			 Sex sex) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.age = age;
-		this.weight = weight;
-		this.higherEducation = higherEducation;
-		this.setSex(sex);
-	}
+
 
 	public WorkersOfUniversity(String firstName, String lastName, boolean higherEducation, Sex sex) {
 		super();

@@ -27,10 +27,6 @@ public class AssistantProfessor extends WorkersOfUniversity implements Classes {
 
 	}
 
-	public AssistantProfessor(String firstName, String lastName, int age, int weight, boolean higherEducation,
-			String academicDegree, Sex sex) {
-		super(firstName, lastName, age, weight, higherEducation, sex);
-	}
 
 	public AssistantProfessor() {
 		return;

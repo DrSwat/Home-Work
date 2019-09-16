@@ -25,9 +25,7 @@ public class Teacher extends WorkersOfUniversity implements Classes {
 		super(firstName, lastName, higherEducation, sex);
 	}
 
-	public Teacher(String firstName, String lastName, int age, int weight, boolean higherEducation, Sex sex) {
-		super(firstName, lastName, age, weight, higherEducation, sex);
-	}
+
 
 	@Override
 	public String toString() {

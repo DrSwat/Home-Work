@@ -36,12 +36,7 @@ public class Professor extends WorkersOfUniversity implements Classes {
 
 	}
 
-	public Professor(String firstName, String lastName, int age, int weight, boolean higherEducation,
-			String academicDegree, Sex sex, int lectureGroups, int practiceGroups) {
-		super(firstName, lastName, age, weight, higherEducation, sex);
-		this.lectureGroups = lectureGroups;
-		this.practiceGroups = practiceGroups;
-	}
+
 
 	public Professor() {
 		return;
