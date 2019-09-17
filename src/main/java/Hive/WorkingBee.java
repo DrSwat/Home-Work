@@ -44,7 +44,7 @@ public class WorkingBee extends Bee implements Beep {
 
 	@Override
 	public String toString() {
-		return "Working bee has sting =" + sting +" "+  super.toString() + " ";
+		return "Working bee have sting =" + sting +" "+  super.toString() + " ";
 	}
 
 	

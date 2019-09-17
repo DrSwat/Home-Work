@@ -43,6 +43,6 @@ public class NurseBee extends Bee implements Beep {
 
 	@Override
 	public String toString() {
-		return "Nurse Bee has sting = " + sting + ", bornBetween = " + bornBetween + super.toString() + " ";
+		return "Nurse Bee have sting = " + sting + ", bornBetween = " + bornBetween + super.toString() + " ";
 	}
 }
