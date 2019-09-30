@@ -2,6 +2,7 @@ package lesson3;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 public class StaticMethods {
 
@@ -283,5 +284,35 @@ public class StaticMethods {
 
 	}
 	// Intermediate(midle) level
+	
+	public static void interactiveVerify() {
+		Scanner longnteger = new Scanner(System.in);
+		System.out.println("Please enter positive integer ");
+		int number = longnteger.nextInt();
+		System.out.println("Enter the sum of the digits of this number ");
+		Scanner countInteger = new Scanner(System.in);
+		int count = countInteger.nextInt();
+		int temp = number;
+		int sum = 0;
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		if (number > 0) {
+			do {
+				array.add(temp % 10);
+				temp /= 10;
+
+			} while (temp > 0);
+
+			for (int index : array) {
+				sum += index;
+			}
+			if (sum == count) {
+				System.out.println("The sum of the number was counted right");
+			} else {
+				System.out.println("The sum of teh number was counted wrong");
+			}
+		} else {
+			System.out.println("The number is negative");
+		}
+	}
 
 }

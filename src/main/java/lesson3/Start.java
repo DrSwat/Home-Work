@@ -48,6 +48,7 @@ public class Start {
 		st.quadEqu(testNumber1, testNumber2, testNumber3);
 		st.testDiagonal();
 		// Intermediate(midle) level
+		st.interactiveVerify();
 	}
 
 }
