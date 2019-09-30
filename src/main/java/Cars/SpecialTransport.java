@@ -1,4 +1,4 @@
-package Cars;
+package cars;
 
 public class SpecialTransport extends ElectricCar {
 

@@ -1,8 +1,8 @@
-package Workers;
+package workers;
 
 
-import WorkersOfUniversity.Classes;
-import WorkersOfUniversity.WorkersOfUniversity;
+import workersOfUniversity.Classes;
+import workersOfUniversity.WorkersOfUniversity;
 
 public class AssistantProfessor extends WorkersOfUniversity implements Classes {
 

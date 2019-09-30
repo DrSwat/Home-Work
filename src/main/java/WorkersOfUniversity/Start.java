@@ -1,11 +1,11 @@
-package WorkersOfUniversity;
+package workersOfUniversity;
 
 
-import Workers.AssistantProfessor;
-import Workers.CleaningLeady;
-import Workers.Plumber;
-import Workers.Professor;
-import Workers.Teacher;
+import workers.AssistantProfessor;
+import workers.CleaningLeady;
+import workers.Plumber;
+import workers.Professor;
+import workers.Teacher;
 
 public class Start {
 

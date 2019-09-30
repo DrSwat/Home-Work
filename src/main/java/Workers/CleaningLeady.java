@@ -1,7 +1,7 @@
-package Workers;
+package workers;
 
 
-import WorkersOfUniversity.WorkersOfUniversity;
+import workersOfUniversity.WorkersOfUniversity;
 
 public class CleaningLeady extends WorkersOfUniversity {
 

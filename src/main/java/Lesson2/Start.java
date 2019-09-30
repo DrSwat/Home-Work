@@ -1,4 +1,4 @@
-package Lesson2;
+package lesson2;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

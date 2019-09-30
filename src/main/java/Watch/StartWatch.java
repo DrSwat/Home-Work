@@ -1,6 +1,6 @@
-package Watch;
+package watch;
 
-import Watch.Watch.DriveUnit;
+import watch.Watch.DriveUnit;
 
 public class StartWatch {
 	

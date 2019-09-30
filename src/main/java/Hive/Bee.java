@@ -1,4 +1,4 @@
-package Hive;
+package hive;
 
 public abstract class Bee {
 

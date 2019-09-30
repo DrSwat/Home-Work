@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 public class PCGames extends Games {
 	

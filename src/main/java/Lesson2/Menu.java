@@ -1,4 +1,4 @@
-package Lesson2;
+package lesson2;
 
 public  class Menu{
     private static int i=0;

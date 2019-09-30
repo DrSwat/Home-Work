@@ -1,4 +1,4 @@
-package Hive;
+package hive;
 
 public class QueenBee extends Bee implements EggLaying {
 

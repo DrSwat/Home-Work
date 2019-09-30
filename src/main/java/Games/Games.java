@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 public abstract class Games {
 	

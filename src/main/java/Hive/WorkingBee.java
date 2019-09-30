@@ -1,4 +1,4 @@
-package Hive;
+package hive;
 
 public class WorkingBee extends Bee implements Beep {
 	public enum BornBetween {

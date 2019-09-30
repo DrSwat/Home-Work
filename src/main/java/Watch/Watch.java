@@ -1,4 +1,4 @@
-package Watch;
+package watch;
 
 public abstract class Watch {
 

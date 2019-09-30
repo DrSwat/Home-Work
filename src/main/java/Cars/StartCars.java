@@ -1,7 +1,7 @@
-package Cars;
+package cars;
 
-import Cars.Car.TypeCar;
-import Cars.DieselCar.KindOfEngine;
+import cars.Car.TypeCar;
+import cars.DieselCar.KindOfEngine;
 
 public class StartCars {
 

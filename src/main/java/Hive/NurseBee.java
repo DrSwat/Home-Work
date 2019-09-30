@@ -1,6 +1,6 @@
-package Hive;
+package hive;
 
-import Hive.WorkingBee.BornBetween;
+import hive.WorkingBee.BornBetween;
 
 public class NurseBee extends Bee implements Beep {
 

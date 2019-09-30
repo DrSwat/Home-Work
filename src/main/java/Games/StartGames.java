@@ -1,6 +1,6 @@
-package Games;
+package games;
 
-import Games.Games.Status;
+import games.Games.Status;
 
 public class StartGames {
 

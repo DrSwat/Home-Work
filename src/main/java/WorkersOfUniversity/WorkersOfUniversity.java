@@ -1,4 +1,4 @@
-package WorkersOfUniversity;
+package workersOfUniversity;
 
 public abstract class WorkersOfUniversity {
 

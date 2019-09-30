@@ -1,4 +1,4 @@
-package Watch;
+package watch;
 
 import java.util.Date;
 
