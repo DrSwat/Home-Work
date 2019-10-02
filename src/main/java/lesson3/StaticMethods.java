@@ -1,5 +1,6 @@
 package lesson3;
 
+import java.awt.List;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -273,18 +274,18 @@ public class StaticMethods {
 	}
 
 	public static void testDiagonal() {
-		String[][] array1 = { { "T", " ", " ", " " }, { " ", "e", " ", " " }, { " ", " ", "s", " " },
+		String[][] arrayString = { { "T", " ", " ", " " }, { " ", "e", " ", " " }, { " ", " ", "s", " " },
 				{ " ", " ", " ", "t" } };
-		for (int i = 0; i < array1.length; i++) {
-			for (int j = 0; j < array1[i].length; j++) {
-				System.out.print(array1[i][j] + "\t");
+		for (int index = 0; index < arrayString.length; index++) {
+			for (int jndex = 0; jndex < arrayString[index].length; jndex++) {
+				System.out.print(arrayString[index][jndex] + "\t");
 			}
 			System.out.println("Соломія");
 		}
 
 	}
 	// Intermediate(midle) level
-	
+
 	public static void interactiveVerify() {
 		Scanner longnteger = new Scanner(System.in);
 		System.out.println("Please enter positive integer ");
@@ -292,15 +293,15 @@ public class StaticMethods {
 		System.out.println("Enter the sum of the digits of this number ");
 		Scanner countInteger = new Scanner(System.in);
 		int count = countInteger.nextInt();
-		int temp = number;
+		int tempoprary = number;
 		int sum = 0;
 		ArrayList<Integer> array = new ArrayList<Integer>();
 		if (number > 0) {
 			do {
-				array.add(temp % 10);
-				temp /= 10;
+				array.add(tempoprary % 10);
+				tempoprary /= 10;
 
-			} while (temp > 0);
+			} while (tempoprary > 0);
 
 			for (int index : array) {
 				sum += index;
@@ -315,4 +316,31 @@ public class StaticMethods {
 		}
 	}
 
+	public static void luckyTicket() {
+		int sumLyckyTicket = 0;
+		for (int index = 1001; index < 1000000; index++) {
+			int number1 = 1000000 % 10;
+			int number2 = 100000 % 10;
+			int number3 = 10000 % 10;
+			int number4 = 1000 % 10;
+			int number5 = 100 % 10;
+			int number6 = 10 % 10;
+			if ((number1 + number2 + number3) == (number4 + number5 + number6)) {
+				sumLyckyTicket++;
+			}
+		}
+		System.out.println("The count of the Lucky Tickets equals = " + sumLyckyTicket);
+	}
+
+	public static int[] returnsArray(int[] array) {
+		for (int index = 0; index < array.length / 2; index++) {
+			int temporary = array[index];
+			array[index] = array[array.length - index - 1];
+			array[array.length - index - 1] = temporary;
+		}
+		return array;
+	}
+	
+	
+	
 }

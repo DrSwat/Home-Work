@@ -49,6 +49,12 @@ public class Start {
 		st.testDiagonal();
 		// Intermediate(midle) level
 		st.interactiveVerify();
+		st.luckyTicket();
+		st.returnsArray(array);
+		for (int index : array) {
+			System.out.print(index + " ");
+		}
+		System.out.println();
 	}
 
 }
