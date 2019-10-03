@@ -3,6 +3,7 @@ package lesson3;
 public class Start {
 	public static void main(String[] args) {
 
+		String value = "d ./ytwryetyjdtuj7saki876d";
 		String str = new String("Test");
 		int[] array = new int[] { 1, 3, 5, 7, 9 };
 		int testNumber1 = 5;
@@ -47,6 +48,8 @@ public class Start {
 		st.verify(arrNumb, testNumber4);
 		st.quadEqu(testNumber1, testNumber2, testNumber3);
 		st.testDiagonal();
+		
+		
 		// Intermediate(midle) level
 		st.interactiveVerify();
 		st.luckyTicket();
@@ -55,6 +58,8 @@ public class Start {
 			System.out.print(index + " ");
 		}
 		System.out.println();
+		System.out.println(st.retIntString(value));
+		
 	}
 
 }

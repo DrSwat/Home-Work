@@ -341,6 +341,15 @@ public class StaticMethods {
 		return array;
 	}
 	
-	
+	public static int retIntString(String string) {
+		int result = 0;
+		char[] array = string.toCharArray();
+		for (int index = 0; index < array.length; index++) {
+			char temporary = array[index];
+			if (temporary > 47 && temporary < 58)
+				result += temporary - 48;
+		}
+		return result;
+	}
 	
 }
